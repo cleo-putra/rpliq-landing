@@ -177,3 +177,38 @@ body {
   font-weight: 600;
   font-size: 16px;
 }
+
+
+.slick-next {
+  background: url('/arrow-right.png')  no-repeat!important;
+  width: 35px!important;
+  height: 35px!important;
+
+  &::before {
+    display: none;
+  }
+}
+
+.slick-next:hover {
+  background: url('/arrow-right-green.png') no-repeat!important;
+  transition: 0.5s;
+  width: 35px!important;
+  height: 35px!important;
+}
+
+.slick-prev {
+  background: url('/arrow-left.png') no-repeat!important;
+  width: 35px!important;
+  height: 35px!important;
+
+  &::before {
+    display: none;
+  }
+}
+
+.slick-prev:hover {
+  background: url('/arrow-left-green.png') no-repeat!important;
+  transition: 0.5s;
+  width: 35px!important;
+  height: 35px!important;
+}
