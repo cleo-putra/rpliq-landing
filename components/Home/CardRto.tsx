@@ -19,12 +19,12 @@ const CardRto = () => {
 
           <div className="lg:mt-6 sm:mt-2 flex justify-normal gap-4">
             <button className="flexCenter gap-3" type="button">
-              <label className="bold-extrabold whitespace-nowrap btn_dark_green lg:text-normal xs:text-xs">
+              <label className="font-bold whitespace-nowrap btn_dark_green lg:text-normal xs:text-xs">
                 Start Free Trial
               </label>
             </button>
             <button className="flexCenter gap-3" type="button">
-              <label className="bold-16 whitespace-nowrap btn_white_green lg:text-normal xs:text-xs">
+              <label className="font-bold whitespace-nowrap btn_white_green lg:text-normal xs:text-xs">
                 Request Demo
               </label>
             </button>

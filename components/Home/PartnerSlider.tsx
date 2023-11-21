@@ -34,12 +34,38 @@ const PartnerSlider = () => {
     slidesToShow: 3,
     slidesToScroll: 3,
     centerPadding: "100px",
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
 
   return (
     <div className="bg-gradient-to-b from-[#eafaf4] to-white flex">
       <div className="max-container padding-container py-8 grid max-w-2xl grid-cols-1">
-        <p className="text-center lg:mt-4 xs:mt-0 text-3xl font-semibold tracking-tight text-gray-900 sm:text-2xl">
+        <p className="text-center lg:mt-4 xs:mt-0 md:text-2xl px-5 xs:text-lg font-semibold tracking-tight text-gray-900 sm:text-2xl">
           Trusted By Our Training Organisation Partners
         </p>
         <Slider {...settings} className="py-10 px-20">

@@ -31,6 +31,12 @@ const items: CollapseProps["items"] = [
 ];
 
 const AchieveRpl = () => {
+  function createMarkup() {
+    return {
+      __html:
+        '<img src="https://cdn.sstatic.net/Sites/stackoverflow/Img/apple-touch-icon.png?v=c78bd457575a" /> abc',
+    };
+  }
   return (
     <div className="overflow-hidden bg-white py-24 sm:py-24 padding-container">
       <div className="mx-auto max-w-7xl">
@@ -46,11 +52,16 @@ const AchieveRpl = () => {
                   items={items}
                   bordered={false}
                   defaultActiveKey={["1"]}
-                  expandIcon={({ isActive }) => (
-                    <ZoomInOutlined rotate={isActive ? 90 : 0} />
-                  )}
-                  style={{ margin: "10px" }}
+                  style={{ margin: "10px", fontSize: "30px" }}
                   size="large"
+                  expandIcon={({ isActive }) => (
+                    <img
+                      src={
+                        isActive ? "./icon/rpl.png" : "./icon/zoom-white.png"
+                      }
+                      className="w-[15px] h-[15px]"
+                    />
+                  )}
                 />
               </div>
             </div>

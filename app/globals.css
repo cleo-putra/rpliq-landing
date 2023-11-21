@@ -37,6 +37,13 @@ body {
   .btn_white_green_outline  { 
     @apply border-green-50 border-4 bg-white px-8 py-5 text-white
   }
+
+  .btn_black_white { 
+    @apply  bg-[#000000] px-8 py-4 text-white transition-all rounded
+  }
+  .btn_black_white_outline  { 
+    @apply border-green-50 border-4 bg-[#000000] px-8 py-5 text-white
+  }
   
   .max-container {
     @apply mx-auto max-w-[1440px];
@@ -169,13 +176,22 @@ body {
 
 /* Collapseable component */
 .ant-collapse-content-box{
-  background-color: #707070;
-  color: white;
+  background-color: #2E2E2E;
+  color: white;  
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .ant-collapse-header-text{
-  font-weight: 600;
+  font-weight: 700!important;
   font-size: 16px;
+}
+
+.ant-collapse-header {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #2E2E2E!important;
+  color: white!important;
 }
 
 
