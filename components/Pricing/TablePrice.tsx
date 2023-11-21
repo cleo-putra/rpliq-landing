@@ -5,38 +5,42 @@ const TablePrice = () => {
     <div className="max-container padding-container mx-auto">
       <section className="text-gray-700 body-font overflow-hidden border-t border-gray-200">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
-          <div className="lg:w-1/4 mt-48 hidden lg:block">
+          <div className="lg:w-1/4  hidden lg:block">
             <div className="mt-px border-t border-gray-300 border-b border-l rounded-tl-lg rounded-bl-lg overflow-hidden">
-              <p className="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start -mt-px">
+              <div className=" text-center h-48 flex items-end px-4 bg-gray-100">
+                <h3 className="tracking-widest font-bold">Features</h3>
+              </div>
+              <p className="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start -mt-px border-t border-gray-300">
                 Fingerstache disrupt
               </p>
-              <p className="text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
                 Franzen hashtag
               </p>
-              <p className="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className=" bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
                 Tilde art party
               </p>
-              <p className="text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
                 Banh mi cornhole
               </p>
-              <p className="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className=" bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
                 Waistcoat squid hexagon
               </p>
-              <p className="text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
                 Pinterest occupy authentic
               </p>
-              <p className="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className=" bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
                 Brooklyn helvetica
               </p>
-              <p className="text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
                 Long Feature Two
               </p>
-              <p className="bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
+              <p className=" bg-gray-100 text-gray-900 h-12 text-center px-4 flex items-center justify-start">
                 Feature One
               </p>
             </div>
           </div>
           <div className="flex lg:w-3/4 w-full flex-wrap lg:border border-gray-300 rounded-lg">
+            {/* col 1 */}
             <div className="lg:w-1/3 lg:mt-px w-full mb-10 lg:mb-0 border-2 border-gray-300 lg:border-none rounded-lg lg:rounded-none">
               <div className="px-2 text-center h-48 flex flex-col items-center justify-center">
                 <h3 className="tracking-widest">START</h3>
@@ -45,7 +49,7 @@ const TablePrice = () => {
                 </h2>
                 <span className="text-sm text-gray-600">Next 3 months</span>
               </div>
-              <p className="bg-gray-100 text-gray-600 h-12 text-center px-2 flex items-center -mt-px justify-center border-t border-gray-300">
+              <p className=" text-gray-600 h-12 text-center px-2 flex items-center -mt-px justify-center border-t border-gray-300">
                 Schlitz single-origin
               </p>
               <p className="text-gray-600 text-center h-12 flex items-center justify-center">
@@ -63,7 +67,7 @@ const TablePrice = () => {
                   </svg>
                 </span>
               </p>
-              <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
+              <p className=" text-gray-600 text-center h-12 flex items-center justify-center">
                 <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -81,7 +85,7 @@ const TablePrice = () => {
               <p className="h-12 text-gray-600 px-6 text-center leading-relaxed flex items-center justify-center">
                 Feature
               </p>
-              <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
+              <p className=" text-gray-600 text-center h-12 flex items-center justify-center">
                 <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -109,7 +113,7 @@ const TablePrice = () => {
                   <path d="M18 6L6 18M6 6l12 12"></path>
                 </svg>
               </p>
-              <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
+              <p className=" text-gray-600 text-center h-12 flex items-center justify-center">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -135,7 +139,7 @@ const TablePrice = () => {
                   <path d="M18 6L6 18M6 6l12 12"></path>
                 </svg>
               </p>
-              <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
+              <p className=" text-gray-600 text-center h-12 flex items-center justify-center">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -156,7 +160,8 @@ const TablePrice = () => {
                 </button>
               </div>
             </div>
-            <div className="lg:w-1/3 lg:-mt-px w-full mb-10 lg:mb-0 border-2 rounded-lg border-indigo-500 relative">
+            {/* col 2 */}
+            <div className="lg:w-1/3 lg:-mt-px w-full mb-10 lg:mb-0 border-2 rounded-lg border-indigo-500 relative bg-green-50">
               <span className="bg-indigo-500 text-white px-3 py-1 tracking-widest text-xs absolute right-0 top-0 rounded-bl">
                 POPULAR
               </span>
@@ -170,7 +175,7 @@ const TablePrice = () => {
                   Charging $456 per year
                 </span>
               </div>
-              <p className="bg-gray-100 text-gray-600 h-12 text-center px-2 flex items-center -mt-px justify-center border-t border-gray-300">
+              <p className=" text-gray-600 h-12 text-center px-2 flex items-center -mt-px justify-center border-t border-gray-300">
                 Schlitz single-origin
               </p>
               <p className="text-gray-600 text-center h-12 flex items-center justify-center">
@@ -188,7 +193,7 @@ const TablePrice = () => {
                   </svg>
                 </span>
               </p>
-              <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
+              <p className=" text-gray-600 text-center h-12 flex items-center justify-center">
                 <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -206,7 +211,7 @@ const TablePrice = () => {
               <p className="h-12 text-gray-600 text-center leading-relaxed flex items-center justify-center">
                 Feature
               </p>
-              <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
+              <p className=" text-gray-600 text-center h-12 flex items-center justify-center">
                 <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -236,7 +241,7 @@ const TablePrice = () => {
                   </svg>
                 </span>
               </p>
-              <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
+              <p className=" text-gray-600 text-center h-12 flex items-center justify-center">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -262,7 +267,7 @@ const TablePrice = () => {
                   <path d="M18 6L6 18M6 6l12 12"></path>
                 </svg>
               </p>
-              <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
+              <p className=" text-gray-600 text-center h-12 flex items-center justify-center">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -283,6 +288,7 @@ const TablePrice = () => {
                 </button>
               </div>
             </div>
+            {/* col 3 */}
             <div className="lg:w-1/3 w-full lg:mt-px border-2 border-gray-300 lg:border-none rounded-lg lg:rounded-none">
               <div className="px-2 text-center h-48 flex flex-col items-center justify-center">
                 <h3 className="tracking-widest">BUSINESS</h3>
@@ -294,7 +300,7 @@ const TablePrice = () => {
                   Charging $648 per year
                 </span>
               </div>
-              <p className="bg-gray-100 text-gray-600 h-12 text-center px-2 flex items-center -mt-px justify-center border-t border-gray-300">
+              <p className=" text-gray-600 h-12 text-center px-2 flex items-center -mt-px justify-center border-t border-gray-300">
                 Schlitz single-origin
               </p>
               <p className="text-gray-600 text-center h-12 flex items-center justify-center">
@@ -312,7 +318,7 @@ const TablePrice = () => {
                   </svg>
                 </span>
               </p>
-              <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
+              <p className=" text-gray-600 text-center h-12 flex items-center justify-center">
                 <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -330,7 +336,7 @@ const TablePrice = () => {
               <p className="h-12 text-gray-600 text-center leading-relaxed flex items-center justify-center">
                 Feature
               </p>
-              <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
+              <p className=" text-gray-600 text-center h-12 flex items-center justify-center">
                 <span className="w-5 h-5 inline-flex items-center justify-center bg-gray-500 text-white rounded-full flex-shrink-0">
                   <svg
                     fill="none"
@@ -358,7 +364,7 @@ const TablePrice = () => {
                   <path d="M18 6L6 18M6 6l12 12"></path>
                 </svg>
               </p>
-              <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
+              <p className=" text-gray-600 text-center h-12 flex items-center justify-center">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -384,7 +390,7 @@ const TablePrice = () => {
                   <path d="M18 6L6 18M6 6l12 12"></path>
                 </svg>
               </p>
-              <p className="bg-gray-100 text-gray-600 text-center h-12 flex items-center justify-center">
+              <p className=" text-gray-600 text-center h-12 flex items-center justify-center">
                 <svg
                   fill="none"
                   stroke="currentColor"
