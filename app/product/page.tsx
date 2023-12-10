@@ -1,3 +1,5 @@
+import CardRto from "@/components/Home/CardRto";
+import CarouselProduct from "@/components/Product/CarouselProduct";
 import ProductCard from "@/components/Product/ProductCard";
 import ProductTwoCard from "@/components/Product/ProductTwoCard";
 import Image from "next/image";
@@ -48,6 +50,9 @@ const page = () => {
       </div>
       <ProductCard />
       <ProductTwoCard />
+      <ProductCard />
+      <CarouselProduct />
+      <CardRto />
     </>
   );
 };
